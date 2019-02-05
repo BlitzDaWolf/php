@@ -10,7 +10,7 @@ then
   done
 fi
 
-CHECK="$(curl -sL -w %{http_code} -o /dev/null http://localhost:${APACHE_LISTEN:-8080}/)"
+CHECK="$(curl -sL -w %{http_code} -o /dev/null http://localhost:${APACHE_LISTEN:-80}/)"
 
 if [[ "${CHECK}" == "200" ]]
 then

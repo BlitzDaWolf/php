@@ -5,7 +5,7 @@ LABEL maintainer="ownCloud DevOps <devops@owncloud.com>" \
   org.label-schema.vendor="ownCloud GmbH" \
   org.label-schema.schema-version="1.0"
 
-EXPOSE 8080
+EXPOSE 80
 
 ENTRYPOINT ["/usr/bin/entrypoint"]
 CMD ["/usr/bin/server"]

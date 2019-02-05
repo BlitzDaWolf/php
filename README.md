@@ -18,7 +18,7 @@ To get an overview about the available versions please take a look at the [GitHu
 
 ## Ports
 
-* 8080
+* 80
 
 
 ## Available environment variables
@@ -48,7 +48,7 @@ APACHE_KEEP_ALIVE_TIMEOUT 5
 APACHE_ADD_DEFAULT_CHARSET UTF-8
 APACHE_HOSTNAME_LOOKUPS Off
 APACHE_ACCESS_FILE_NAME .htaccess
-APACHE_LISTEN 8080
+APACHE_LISTEN 80
 ```
 
 
