@@ -1,4 +1,4 @@
-FROM owncloud/ubuntu:latest
+FROM blitzdawolf/ubuntu:latest
 
 LABEL maintainer="ownCloud DevOps <devops@owncloud.com>" \
   org.label-schema.name="ownCloud PHP" \
